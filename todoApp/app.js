@@ -5,7 +5,8 @@ var logger = require('morgan');
 var cookieParser = require('cookie-parser');
 var bodyParser = require('body-parser');
 var mongoose = require('mongoose');
-mongoose.connect('mongodb://localhost/todoApp', function(err) {
+mongoose.connect('mongodb://pa-user:wheepa99@ds031842.mongolab.com:31842/heroku_app36883949', function(err) {
+//mongoose.connect('mongodb://localhost/todoApp', function(err) {
     if(err) {
         console.log('connection error', err);
     } else {
